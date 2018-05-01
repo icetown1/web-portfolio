@@ -1,0 +1,66 @@
+html, head, body, nav, header, div, footer, ul, li, p, a{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height: 10vh;
+}
+
+nav{
+  display: inline-flex;
+  box-sizing: border-box;
+  position: fixed;
+  top: 5px; left: 5px;
+  color: green;
+  opacity: .8;
+  width: 50vw;
+}
+
+html{
+  height: 100vh;
+  width: 100vw;
+  background-image: url("ferns.jpeg");
+  background-size: cover;
+}
+footer{
+  position: fixed;
+  bottom: 5px; right: 5px;
+  height: 6vh;
+  width: 70vw;
+  opacity: .8;
+  color: green;
+  font-size: 4vh;
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  display: inline-flex;
+}
+a{
+  color: #25803A;
+  text-decoration: none;
+  padding: 0px 50px;
+}
+a:hover{
+  color: #4FF61C;
+}
+.middle{
+  font-size: 24px;
+  color: #25803A;
+  width: 22vw;
+  height: 8h;
+  background-color: black;
+  opacity: .5;
+  margin-left: 75vw;
+}
+
+.bottom{
+  padding-top: 20vh;
+}
+
+/* .top{
+  height: 100vh;
+  width: 100vh;
+} */

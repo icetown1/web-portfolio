@@ -1,0 +1,114 @@
+html, head, body, nav, header, div, footer, ul, li, p, a{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height: 10vh;
+  /* border: 2px solid red; */
+}
+
+nav{
+  display: inline-flex;
+  box-sizing: border-box;
+  position: fixed;
+  top: 5px; left: 5px;
+  /** border: 3px solid red; **/
+  /* color: green; */
+  opacity: .8;
+  width: 50vw;
+  /* justify-content: space-around; */
+}
+
+html{
+  height: 100vh;
+  width: 100vw;
+  background-image: url("mountain.jpeg");
+  background-size: cover;
+  /* border: 1px solid black; */
+  /* padding: 5px; */
+}
+
+footer{
+  display: inline-flex;
+  box-sizing: border-box;
+  /* justify-content: space-between; */
+  position: fixed;
+  bottom: 5px; right: 5px;
+  height: 6vh;
+  /* width: 70vw; */
+  /**background-color: black;**/
+  opacity: .8;
+  /**border: 3px solid green;**/
+  color: green;
+  font-size: 4vh;
+  padding: 0;
+  margin: 0;
+  /* border: 3px solid blue; */
+}
+
+ul{
+  display: inline-flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  /** border: 3px solid hotpink; **/
+}
+
+li{
+  display: inline-flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+a{
+  color: #72695a;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+}
+
+img{
+  border-radius: 80px;
+  width: 15vw;
+  height: 20vh;
+  margin: 10px 20px;
+  /* border: 3px solid green; */
+}
+
+p{
+  font-size: 24px;
+  /* border: 3px solid red; */
+}
+
+
+.pictures{
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  /* height: 20vh; */
+  opacity: .6;
+  /* border: 3px solid yellow; */
+}
+
+.top{
+  height: 20vh;
+  width: 20vh;
+}
+.pictures img{
+  transition: transform 1.5s ease;
+  cursor: zoom-in;
+}
+
+.pictures img:active {
+  -webkit-transform: scale(3);
+  transform: scale(3);
+  cursor: zoom-out;
+}
+
+
+.bottom{
+  height: 10vh;
+}
